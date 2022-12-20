@@ -107,9 +107,9 @@ return newteammember
                           <br><h4>${role}</h4><br>
                       </div>
                       <div class="card-body manager">
-                        <p class="card-text">${name}'s ID Number: ${id}</p>
-                        <p class="card-text">${name}'s Email Address:${email}</p>
-                        <p class="card-text">${name}'s Phone Humber:${phone}</p>
+                        <p class="card-text">ID Number: ${id}</p>
+                        <p class="card-text">Email Address: ${email}</p>
+                        <p class="card-text">Phone Number: ${phone}</p>
                       </div>
                     </div>
                   </div>`;
@@ -121,9 +121,9 @@ return newteammember
                             <br><h4>${role}</h4><br>
                         </div>
                         <div class="card-body engineer">
-                        <p class="card-text">${name}'s ID Number:${id}</p>
-                        <p class="card-text">${name}'s GitHub Username:${gitHub}</p>
-                        <p class="card-text">${name}'s Email Address:${email}</p>
+                        <p class="card-text">ID Number: ${id}</p>
+                        <p class="card-text">GitHub Username: ${gitHub}</p>
+                        <p class="card-text">Email Address: ${email}</p>
                         </div>
                       </div>
                     </div>`;
@@ -135,21 +135,15 @@ return newteammember
                           <br><h4>${role}</h4><br>
                       </div>
                                 <div class="card-body">  
-                                <p class="card-text">${name}'s ID Number:${id}</p>
-                                <p class="card-text">${name}'s School:${school}</p>
-                                <p class="card-text">${name}'s Email Address:${email}</p>
+                                <p class="card-text">ID Number: ${id}</p>
+                                <p class="card-text">School: ${school}</p>
+                                <p class="card-text">Email Address: ${email}</p>
                                 </div> 
                                 </div>
                               </div>
                           </div>`;
                 };
 teamHtml.push(data)
-                // fs.appendFile("./dist/index.html", data, function (err){
-                //     if (err) {
-                //         return reject(err);
-                //     };
-                //     return resolve();
-                // });
                     };
 
             function finishHTML() {
@@ -161,15 +155,15 @@ teamHtml.push(data)
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Document</title>
-            <link rel="stylesheet" href="./dist/style.css">
+            <link rel="stylesheet" href="style.css">
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         </head>
         <body>
-            <div class="jumbotron jumbotron-fluid text-white text-center m-4" style="height:150px">
+        <div class="jumbotron jumbotron-fluid bg-secondary text-white text-center m-4" style="height:150px; width:90rem"><h1>My Team</h1></div>
                 <div class="container">
                     ${teamHtml.join()}
                 </div>
-            </div>
+        
             </body>
             </html>`;
 
