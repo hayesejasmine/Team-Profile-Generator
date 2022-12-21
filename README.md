@@ -33,7 +33,8 @@ THEN I exit the application, and the HTML is generated
 
 ## Mock-Up
 
-https://user-images.githubusercontent.com/114713151/208811217-f2602735-1baf-4163-a0eb-9dc882b733e7.png
+https://user-images.githubusercontent.com/114713151/208815256-faa24229-a966-452c-bcec-abf70ef19125.png
 
 ## Video Walkthrough Link
 
+https://user-images.githubusercontent.com/114713151/208816111-4c60c0fd-3ea1-49d3-8c52-5b93cd0bd57e.webm
