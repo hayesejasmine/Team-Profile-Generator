@@ -42,7 +42,7 @@ function teammemberprofile(){
         console.log (name, role, id, email)
         let rolespecific = '';
         if (role === 'Manager') {
-            rolespecific = 'Please provide the managers office number:';
+            rolespecific = 'Please provide the managers phone number:';
         } else if (role === 'Engineer') {
             rolespecific = 'Please provide the team members GitHub username:';
         } else {
@@ -100,7 +100,7 @@ return newteammember
                 let data = '';
 
                 if (role ==='Manager') {
-                    const phone = teammemberinfo.getPhone();
+                    const phone = teammemberinfo.getphone();
                     data = `<div class="col">
                     <div class="card h-100">
                       <div class="card-header"><h2>${name}</h2>

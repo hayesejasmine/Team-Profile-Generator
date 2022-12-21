@@ -33,4 +33,7 @@ THEN I exit the application, and the HTML is generated
 
 ## Mock-Up
 
+https://user-images.githubusercontent.com/114713151/208811217-f2602735-1baf-4163-a0eb-9dc882b733e7.png
+
 ## Video Walkthrough Link
+
