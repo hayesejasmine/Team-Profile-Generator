@@ -2,6 +2,7 @@
 
 .jumbotron h1{
 padding-top: 37pt;
+
 }
    
 
@@ -11,7 +12,6 @@ padding-top: 37pt;
 }
 
 .card{
-margin-left: -32%;
-width:90rem;      
-}
+float: center;  
+ }
 
